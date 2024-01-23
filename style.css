@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#leftbox {
+    width: 386px;
+    height: 1024px;
+    flex-shrink: 0;
+    background: #223738;
+}
+
+
+#profile {
+    align-self: center;
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 220px;
+    max-height: 220px;
+    flex-shrink: 0;
+    margin: 30px 83px ;
+}
+
+#profile img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.box {
+    width: 386px;
+    height: 1024px;
+}
+
+.box .rectangle {
+    position: fixed;
+    width: 386px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #213638;
+}
+
+#contact {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -24px;
+    margin-left: 35px;
+}
+
+#line1 {
+    width: 351px;
+    height: 3px;
+    background: #FFF;
+    margin-top: -25px;
+    margin-left: 35px;
+}
+
+#phone {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7px;
+    margin-left: 35px;
+}
+
+#number {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -18px;
+    margin-left: 35px;
+}
+
+#email {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -7px;
+    margin-left: 35px;
+}
+
+#emailadd {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -18px;
+    margin-left: 35px;
+}
+
+#address {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -7px;
+    margin-left: 35px;
+}
+
+#add {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -18px;
+    margin-left: 35px;
+}
+
+#portfolio {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -7px;
+    margin-left: 35px;
+}
+
+
+#linkedin {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -18px;
+    margin-left: 35px;
+    text-decoration: underline;
+}
+
+#github {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -16px;
+    margin-left: 35px;
+    text-decoration: underline;
+}
+
+#education {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -14px;
+    margin-left: 35px;
+}
+
+#line2 {
+    width: 351px;
+    height: 3px;
+    background-color: white;
+    margin-top: -25px;
+    margin-left: 35px;
+}
+
+#date {
+    color: #FFF;   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 14px;
+    margin-left: 35px;
+}
+
+#course, #college{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -18px;
+    margin-left: 35px;
+}
+
+#name {
+    color: #000;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 424px;
+}
+
+#student {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: -48px;
+}
+
+#info {
+    width: 947px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: 21px;
+}
+
+#project {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 48px;
+    margin-left: 424px;
+}
+
+#line3 {
+    width: 947px;
+    height: 3px;
+    background-color: black;
+    margin-left: 424px;
+    margin-top: -20px;
+}
+
+#project1 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: 5px;
+}
+
+#role {
+    width: 180px;
+    height: 23px;
+    flex-shrink: 0; 
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: -18px;
+}
+
+#date2 {
+    width: 180px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: -18px;
+}
+
+#info2 {
+    width: 950px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: -18px;
+}
+
+#key {
+    width: 180px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+#achievements {
+    width: 950px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: -15px;
+}
+
+#skills {
+    width: 180px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+#info3 {
+    width: 950px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: -13px;
+}
+
+#objectives {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: 20px;
+}
+
+#line4 {
+    width: 947px;
+    height: 3px;
+    background-color: black;
+    margin-left: 424px;
+    margin-top: -35px;
+}
+
+#info4 {
+    width: 950px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 424px;
+    margin-top: 2px;
+}
